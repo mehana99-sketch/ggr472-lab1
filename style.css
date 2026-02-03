@@ -1,0 +1,20 @@
+body {
+    background-color: pink;
+
+    .container {
+        background-color: oldlace;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+    }
+
+    /* I tried to change the navbar color, but couldn't figure out how to ovveride the bootstrap styling.*/
+    .navbar.bg-body-tertiary {
+        background-color: #1f2933;
+        /* This doesn't work ^ */
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+    }
+}
